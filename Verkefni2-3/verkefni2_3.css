@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    
+}
+.grey{
+    background:grey;
+    text-align: right;
+    margin: 5px;
+}
+
+.margin{
+    margin: 10px;
+}
+
+.box {
+    float: right;
+    width: 50%;
+    border:1px solid black;
+}
+
+.box1 {
+    float: left;
+    width: 50%;
+    border:1px solid black;
+}
+
+img{
+    float: right;
+}
+
+.rammi{
+    border:1px solid black;
+}
+
+.athugid{
+    background-color: yellow;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bigL{
+    font-size: 500%;
+    padding: 25px;
+    float: left;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
